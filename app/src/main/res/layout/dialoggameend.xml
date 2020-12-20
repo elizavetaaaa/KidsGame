@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="600dp"
+    android:id="@+id/dialogfon"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:id="@+id/previewimg"
+            android:src="@drawable/gameend"
+            android:layout_weight="60"
+            />
+
+
+        <TextView
+            android:id="@+id/textdescriptionEnd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:text="@string/gamEnd"
+            android:textColor="@color/black95"
+            android:textSize="24sp"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btncontinue"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/style_btn_stroke_black95_press_white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/playagain"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

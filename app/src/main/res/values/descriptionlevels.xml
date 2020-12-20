@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="levelone">Какая цифра больше? Вопросы \n повторяются, пока вы не наберете 20 очков.</string>
+    <string name="leveltwo">Выбери животное, у которого язык длиннее</string>
+    <string name="levelthree">Что тяжелее?</string>
+    <string name="levelfour">Кто двигается быстрее?</string>
+    <string name="levelfive">У кого больше вкусняшек?</string>
+    <string name="levelsix">Какая буква алфавита стоит ближе к концу?</string>
+    <string name="levelseven">Что же больше?</string>
+    <string name="leveleight">Что теплее?</string>
+    <string name="levelnine">Выбери съедобный предмет</string>
+    <string name="levelten">Какое слово написано правильно?</string>
+
+    <string name="leveloneEnd">"Ура!!! Уровень пройден!"</string>
+    <string name="gamEnd">"Умничка! Ты прошел все уровни игры!"</string>
+
+</resources>
